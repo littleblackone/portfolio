@@ -18,8 +18,8 @@ const MotionLink = motion(Link);
 
 export default function NavBar() {
   return (
-    <header className=" w-full  px-32 py-8 font-medium flex items-center justify-between">
-      <nav className=" flex gap-8">
+    <header className=" w-full  px-[10rem] py-8 font-medium flex items-center justify-between">
+      <nav className=" flex gap-10 text-xl">
         <CustomLink href="/" title="Home"></CustomLink>
         <CustomLink href="/about" title="About"></CustomLink>
         <CustomLink href="/projects" title="Projects"></CustomLink>

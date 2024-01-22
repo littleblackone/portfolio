@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Fotter() {
   return (
-    <div className=" font-medium text-lg border-t-2 border-dark border-solid p-32 py-8 flex justify-between items-center">
+    <div className=" font-medium text-lg border-t-2 border-dark border-solid p-[10rem] py-8 flex justify-between items-center">
       <span>{new Date().getFullYear()} &copy; ALL Right Reserved.</span>
       <div>
         <span>Build With 👉 by </span>

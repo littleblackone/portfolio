@@ -3,10 +3,12 @@ import portfolioImg from "@/public/images/profile/developer-pic-1.png";
 import AnimateText from "@/components/shared/AnimateText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons/Icons";
+import HireMe from "@/components/shared/HireMe";
+import LightBulb from "@/public/images/svgs/miscellaneous_icons_1.svg";
 
 export default function Home() {
   return (
-    <main className=" px-32 flex items-center text-dark w-full min-h-screen">
+    <main className=" px-[10rem] flex items-center text-dark w-full min-h-screen">
       <div className=" flex justify-between items-center w-full">
         <div className=" w-1/2">
           <Image
@@ -42,6 +44,16 @@ export default function Home() {
             >
               Contact
             </Link>
+
+            <HireMe></HireMe>
+
+            <div className=" absolute right-8 bottom-8 inline-block w-24">
+              <Image
+                src={LightBulb}
+                alt="light bulb"
+                className=" w-full h-auto"
+              ></Image>
+            </div>
           </div>
         </div>
       </div>
