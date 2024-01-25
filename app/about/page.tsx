@@ -9,6 +9,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "../../components/shared/Skills";
 import Experience from "@/components/shared/Experience";
 import Education from "@/components/shared/Education";
+import Transition from "@/components/shared/Transition";
 
 const AnimatedNumbers = ({ value }: { value: number }) => {
   const ref: React.RefObject<HTMLSpanElement> = useRef(null);
@@ -39,6 +40,7 @@ export default function About() {
         <title>ZSX | About Page</title>
         <meta name="zsx about page" content="zsx about page"></meta>
       </Head>
+      <Transition></Transition>
       <main className=" dark:bg-dark relative z-10 xl:px-[10rem] px-[2rem] sm:px-[3rem] md:px-[6rem] pt-16 flex w-full flex-col items-center justify-center">
         <AnimateText
           text="Passion Fuels Purpose!"

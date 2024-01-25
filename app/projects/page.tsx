@@ -12,6 +12,7 @@ import project4 from "@/public/images/projects/fashion-studio-website.jpg";
 import project5 from "@/public/images/projects/nft-collection-website-cover-image.jpg";
 import project6 from "@/public/images/projects/portfolio-cover-image.jpg";
 import { motion } from "framer-motion";
+import Transition from "@/components/shared/Transition";
 
 interface IFeatureedParams {
   type: string;
@@ -140,6 +141,7 @@ export default function Projects() {
         <title>ZSX | Projects Page</title>
         <meta name="zsx projects page" content="zsx projects page"></meta>
       </Head>
+      <Transition></Transition>
       <main className="dark:bg-dark pb-16 xl:px-[10rem] px-[2rem] sm:px-[3rem] md:px-[6rem] w-full flex flex-col items-center justify-center relative z-10">
         <div className="pt-16">
           <AnimateText

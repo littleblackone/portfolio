@@ -14,6 +14,7 @@ import article7 from "@/public/images/articles/smooth scrolling in reactjs.png";
 import article8 from "@/public/images/articles/todo list app built using react redux and framer motion.png";
 import { motion, useMotionValue } from "framer-motion";
 import { useRef } from "react";
+import Transition from "@/components/shared/Transition";
 
 interface IFeatureArticle {
   time?: string;
@@ -137,6 +138,7 @@ export default function Article() {
         <title>ZSX | Articles Page</title>
         <meta name="zsx articles page" content="zsx articles page" />
       </Head>
+      <Transition></Transition>
       <main className=" relative z-10 xl:px-[10rem] px-[2rem] sm:px-[3rem] md:px-[6rem] pt-16 dark:bg-dark w-full pb-16 flex flex-col items-center justify-center overflow-hidden">
         <AnimateText
           text="Words can Change The World!"
