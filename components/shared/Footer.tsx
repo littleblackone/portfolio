@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Fotter() {
+export default function Footer() {
   return (
-    <div className=" font-medium text-lg border-t-2 border-dark border-solid p-[10rem] py-8 flex justify-between items-center">
-      <span>{new Date().getFullYear()} &copy; ALL Right Reserved.</span>
+    <div className=" dark:text-light dark:bg-dark dark:border-light xl:font-medium xl:text-lg font-normal text-base max-md:flex-col max-md:gap-2 border-t-2 border-dark border-solid xl:px-[10rem] mb-4 px-[1rem] sm:px-[2rem] md:px-[4rem] lg:px-[6rem] py-8 flex justify-between items-center">
+      <span>{new Date().getFullYear()} &copy; ALL Rights Reserved.</span>
       <div>
         <span>Build With 👉 by </span>
         <Link

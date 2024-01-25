@@ -40,7 +40,7 @@ export default function AnimateText({ className, text = "" }: TextParams) {
         variants={quote}
         initial="initial"
         animate="animate"
-        className={`inline-block w-full text-dark font-bold capitalize text-8xl ${className}`}
+        className={`inline-block w-full text-dark dark:text-light font-bold capitalize 2xl:text-7xl ${className}`}
       >
         {text.split(" ").map((word, index) => (
           <motion.span
